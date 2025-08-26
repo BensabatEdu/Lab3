@@ -1,6 +1,6 @@
-#Lab3
+# Lab3
 
-##Códigos importantes
+## Códigos importantes
 - `gerador.c` 
 - `concorrente.c` 
 - `gerar_testes.sh` 
