@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-gerador",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g", "gerador.c", "-o", "gerador", "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-concorrente",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g", "concorrente.c", "-o", "concorrente", "-lpthread", "-lm"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
