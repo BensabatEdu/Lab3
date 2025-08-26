@@ -1,5 +1,4 @@
 #!/bin/bash
-# Salve como executar_testes_limpo.sh
 
 echo "Executando experimentos..."
 echo "Processadores disponíveis: $(nproc)"

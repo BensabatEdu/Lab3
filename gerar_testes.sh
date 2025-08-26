@@ -1,5 +1,4 @@
 #!/bin/bash
-# Salve como gerar_testes.sh
 
 echo "Gerando arquivos de teste..."
 
